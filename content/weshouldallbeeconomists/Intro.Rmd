@@ -2,7 +2,6 @@
 title: "We Should All Be Economists"
 author: "Simon Naitram"
 type: "post"
-date: "3/30/2018"
 publishdate: '2018-04-10'
 image: "weshouldallbeeconomists/img/crowd.jpg"
 draft: false
