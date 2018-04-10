@@ -2,15 +2,12 @@
 title: "We Should All Be Economists"
 author: "Simon Naitram"
 type: "post"
-date: "2018-4-10"
+date: "3/30/2018"
 publishdate: '2018-04-10'
 image: "weshouldallbeeconomists/img/crowd.jpg"
 draft: false
 description: "We Should All Be Economists wants you to be an economist: an engaged citizen who can understand and discuss the economicky world around us."
 slug: WSABE
-output:
-  blogdown::html_page:
-    toc: true
 ---
 
 This blog is titled **We Should All Be Economists** because its purpose is to help you become an economist. Not a full-fledged practicing economist, but an engaged citizen who can discuss the merits of government policies and personal actions. This blog is to help you understand the silly economicky world around us, in real time. 
