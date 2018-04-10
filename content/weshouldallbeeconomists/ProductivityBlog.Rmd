@@ -1,0 +1,93 @@
+---
+title: "What’s the Real Problem with Barbados?"
+author: "Simon Naitram"
+date: '2018-4-10'
+publishdate: '2018-04-10'
+type: "post"
+#showonlyimage: true
+image: "weshouldallbeeconomists/img/prod.png"
+description: "A look at Barbados' fundamental economic challenges."
+slug: productivitybb
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(readxl)
+library(directlabels)
+library(ggtech)
+library(reshape2)
+library(dplyr)
+```
+
+**How have we managed to end up here again?** It would be convenient to find a single person, party or group to blame. But convenience rarely points us to the truth, and what we face today is a far more fundamental failure of our society.
+
+What is the fundamental economic problem? In a word: [**productivity**](https://en.wikipedia.org/wiki/Productivity). It's one of those ethereal concepts that economists love to throw around. There's plenty we don't know about productivity, but there is plenty we agree on. And in particular, we agree that it's the reason the world keeps becoming a better and better place to live.
+
+```{r productivity, echo=FALSE, message=FALSE,  warning=FALSE, fig.width=7,fig.height=3.5, fig.align='center'}
+#GDP Per Worker
+GDPpw <- read_excel("~/Box Sync/BARBADOS/GDP per worker v2.xls", sheet = "Sheet2")
+GDPpw$USA <- GDPpw$USA*100
+GDPpw$Barbados <- GDPpw$Barbados*100
+GDPpw$CSS <- GDPpw$CSS*100
+GDPpw <- GDPpw[which(GDPpw$Year>1991),]
+
+colnames(GDPpw) <- c("Year","USA","Barbados","Caribbean")
+GDPpw <- rbind(c(1991,0,0,0),GDPpw,c(2018,NA,NA,NA),c(2019,NA,NA,NA), c(2020,NA,NA,NA), c(2021,NA,NA,NA))
+GDPpw <- melt(GDPpw, id.vars="Year")
+
+ggplot(GDPpw, aes(Year)) + 
+  geom_smooth(aes(y = value, color=variable), size=1.5, se=F) + 
+  geom_point(aes(y = value, color=variable), size=2, alpha = 0.3)+
+    geom_dl(aes(y=value, label = variable, color=variable), method = list(cex = 1.2,"last.points")) + 
+  scale_x_continuous(breaks=seq(1992,2017,8), labels=seq(1992,2017,8)) +
+  scale_y_continuous(breaks=seq(0,40,10), labels=c("0%","10%","20%","30%","40%")) +
+    labs(x="Year", y="GDP per Worker Growth", title="Productivity Growth", 
+         subtitle="1992 to 2017") +
+    theme_tech(theme="google") +
+  scale_color_tech(theme="google") + 
+  theme(legend.position="none") +
+  geom_vline(xintercept=2008, linetype="dotted") +
+  geom_hline(yintercept=0, linetype="dashed") 
+```
+
+Have a quick glance at this chart from the [World Bank](https://data.worldbank.org/indicator/SL.GDP.PCAP.EM.KD?view=chart). You'll see that **Barbados has basically been the horse that didn't even make it out of the gates!** Measuring productivity as output per worker, we produce only 13% more output per worker today than we did in 1991! 
+
+That is a truly stunning lack of progress. And it is deeply depressing for a country that thinks of itself as a modern, progressive society. How could this have happened? Barbados considers itself to be innovative, adaptive, transformative. But all those things are clearly untrue, given our poor performance. 
+
+**Productivity is mainly the result of adopting technology and using it to innovate.** It is having the institutions and the willingness to adapt quickly to a changing world around us. It is implementing the regulation and providing the infrastructure to allow people and businesses to flourish, bloom, and blossom into whatever they can imagine. 
+
+The 1990s and 2000s were periods of seismic change; the world shifted under our feet. The internet became publicly accessible in 1991 and quite simply disrupted our lives. [The chart below](https://ourworldindata.org/internet#growth-of-the-internet) shows just how explosive the adoption of the internet has been. 
+
+```{r internet, echo=FALSE, message=FALSE,  warning=FALSE, fig.width=6,fig.height=3, fig.align='center'}
+int <- read_excel("~/Box Sync/WSABE/LAC Internet Users.xlsx")
+int$fill <- "A"
+
+ggplot(int, aes(x=Year, y=`Number of Users`, fill = fill))+
+  geom_bar(stat = "identity") +
+      theme_tech(theme="google") +
+  scale_fill_tech(theme="google") + 
+  theme(legend.position="none") +
+  scale_y_continuous(breaks=seq(0,3e+08,1e+08), labels=c("0","100m","200m","300m")) + 
+  labs(title="Internet Users", 
+       subtitle="Latin America & The Caribbean")
+```
+
+**Barbados simply did not reap any rewards from this technological boom.** The world changed around us, and we stood still---paralysed by fear of change, and the willingness to keep doing things the way they've always been done.
+
+**Do not blame the Global Financial Crisis.** From 1991 to 2008, Barbados became only 7% more efficient. Over that period, even our Caribbean neighbours capitalised on the rapidly changing world around us, and become 38% more efficient. We cannot blame the recession for our current troubles. The fundamental problem with the Barbados economy is the failure to take advantage of the rapidly changing world around us.
+
+**What does this have to do with the problems we face today?** We're a small country in a big world. To compete with the big players, we need to keep pace with their advances to stay in the game. 
+
+> Let's suppose the US adopts the newest technology and manages to find a way that lowers the cost of producing sugar from \$3 to \$2 per pound. Barbados, on the other hand, doesn't invest in any new technology and the price remains at \$3. Barbados will now be selling a product that is \$1 more expensive than what other countries have to offer. It's pretty obvious that fewer people will be interested in buying the more expensive product.
+
+Now that we've been left behind, we sell less goods and services to the world. Since less people want our products, we employ less people: it means jobs are scarce. With less economic activity, it's difficult to find the tax revenue to maintain the social services we've become accustomed to. We borrow to pay for those social services, and forget to invest in maintaining our infrastructure. This means that roads, buildings, bridges, sewerage systems---all fall apart. Even the technological infrastructure is under pressure. These are all the symptoms of the deep-rooted disease. But make no mistake: **the disease is low productivity.**
+
+When we think of productivity, we imagine the guy from our office who takes 2-hour lunches, chats all day, and goes home at 3pm on Fridays. But it's about more than that. It's about how, when, and where we use technology. It's about whether businesses and entire industries adapt to the rapidly and constantly changing world. It's about whether we've got the right person for each job. It's not about working harder, or working more hours. In fact, [the world's most productive countries work the least!](https://howmuch.net/articles/worlds-most-productive-countries)
+
+For 10 years, we've spent all of our energy trying to fix the symptoms. Raising taxes. Sending home workers. Cutting social services. Borrowing money. 'Tightening our belts'. Like any deep-rooted disease, Barbados' problems cannot be cured by treating the symptoms. 
+
+**It's time we discuss our institutions, our inability to innovate, our reluctance to adopt new technology, and the unwillingness to accept change.** It's time we keep up with the rapidly changing world around us, before we're permanently left behind.

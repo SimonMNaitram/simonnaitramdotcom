@@ -8,6 +8,11 @@ disqusShortname = ""
 googleAnalytics = "UA-40258242-1"
 enableEmoji=true
 
+[permalinks]
+  weshouldallbeeconomists = "weshouldallbeeconomists/:year/:month/:day/:slug/"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
@@ -41,9 +46,9 @@ enableEmoji=true
   name = "We Should All Be Economists"
   url = "weshouldallbeeconomists/"
   
-  [[params.navlinks]]
-  name = "Research"
-  url = "research/"
+  #[[params.navlinks]]
+  #name = "Research"
+  #url = "research/"
 
   [[params.navlinks]]
   name = "About"
@@ -53,5 +58,11 @@ enableEmoji=true
   facebook      = "https://www.facebook.com/simon.naitram"
   email         = "simon.naitram@gmail.com"
   twitter       = "https://twitter.com/SimonMNaitram"
-  linkedin      = "www.linkedin.com/in/simon-naitram-43622456"
+  linkedin      = "https://www.linkedin.com/in/simon-naitram-43622456"
 
+
+# options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "tomorrow-night-bright"
