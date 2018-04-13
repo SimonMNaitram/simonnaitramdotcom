@@ -16,7 +16,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
-  style = "blue"
+  style = "default"
   description = "The Blog of an Economics PhD student from Barbados"
   copyright = "&copy;2018 Simon Naitram"
   sidebarAbout = [
@@ -66,3 +66,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     highlightjsCDN = "//cdn.bootcss.com"
     highlightjsLang = ["r", "yaml"]
     highlightjsTheme = "tomorrow-night-bright"
+  
+[blackfriday]
+ hrefTargetBlank = true
