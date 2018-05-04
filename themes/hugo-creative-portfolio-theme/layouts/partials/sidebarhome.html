@@ -14,6 +14,14 @@
         <li><a href="{{ $url }}{{ .url }}">{{ .name }}</a></li>
       {{ end }}
     </ul>
+    
+    {{ with .Site.Params.social.subscribe }}
+    <a href="{{ . }}" target="_blank" data-animate-hover="pulse">
+        <i class='fa fa-rss'></i>
+        <span>Subscribe</span>
+    </a>
+    {{end}}
+    
     {{ partial "socialButtonsInSideBar.html" . }}
 
     <div class="copyright">

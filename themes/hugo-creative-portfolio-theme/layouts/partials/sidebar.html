@@ -17,6 +17,14 @@
       {{ partial "widgets/tags.html" . }} 
 
     </ul>
+    
+    {{ with .Site.Params.social.subscribe }}
+    <a href="{{ . }}" target="_blank" data-animate-hover="pulse">
+        <i class='fa fa-rss'></i>
+        <span>Subscribe</span>
+    </a>
+    {{end}}
+    
     {{ partial "socialButtonsInSideBar.html" . }}
 
     <div class="copyright">
