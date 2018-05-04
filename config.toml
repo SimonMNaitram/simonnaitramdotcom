@@ -59,6 +59,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   email         = "simon.naitram@gmail.com"
   twitter       = "https://twitter.com/SimonMNaitram"
   linkedin      = "https://www.linkedin.com/in/simon-naitram-43622456"
+  subscribe     = "https://tinyletter.com/SimonMNaitram"
 
 
 # options for highlight.js (version, additional languages, and theme)

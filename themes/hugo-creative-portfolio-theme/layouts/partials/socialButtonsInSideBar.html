@@ -39,11 +39,10 @@
   <i class="fa fa-github"></i>
 </a>
 {{end}}
-
-<!-- {{ with .Site.RSSLink }}
-<a href="{{ . }}" data-animate-hover="pulse">
+ {{ with .Site.Params.social.subscribe }}
+<a href="{{ . }}" target="_blank" data-animate-hover="pulse">
   <i class='fa fa-rss'></i>
 </a>
-{{end}} -->
+{{end}}
 
 </p>
