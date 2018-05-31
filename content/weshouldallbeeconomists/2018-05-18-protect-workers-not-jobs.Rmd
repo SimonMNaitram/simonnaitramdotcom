@@ -1,0 +1,93 @@
+---
+title: Protect Workers, Not Jobs
+author: Simon Naitram
+publishdate: '2018-05-30'
+slug: protect-workers-not-jobs
+categories: []
+tags: []
+type: "post"
+image: "weshouldallbeeconomists/img/giraffe 2.png"
+description: "The path to an innovative worker-led future"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(waffle)
+library(extrafont)
+library(readxl)
+library(reshape2)
+library(dplyr)
+```
+
+**How would you feel if you lost your job?** What if your job was taken by a computer, or a machine? I think you would be angry. I know I would be mad.
+
+But our world changes quickly. We either change with it, or get left behind. Sometimes innovation changes the world so quickly that it knocks us down. And the fear of being knocked down might be holding us back.
+
+**It is hard to admit when we block our own bright and prosperous future.** When we resist change, we make the future look a lot darker. When we refuse open discussions between labour unions, workers, businesses, and government, we embarrass ourselves. Our stubbornness, so often the key to our success, becomes the iceberg to our Titanic.
+
+Progress is never a walk in the park. Progress means that jobs are destroyed. No one is ever willing to sacrifice their job for the sake of progress. But if we wilfully stand against progress for the sake of saving a single job, then we deny ourselves the chance of a brighter future.
+
+> As far back as 1589, progress has been blocked in the name of protecting jobs. [When William Lee invented a “stocking frame” knitting machine](https://en.wikipedia.org/wiki/William_Lee_(inventor)){target="_blank"} that would greatly reduce the time it took to knit a cap, Queen Elizabeth I denied the patent for this innovation. Why? She was sure that this progress would deprive people of employment, making them beggars, and driving them to ruin. Sounds silly?
+
+> [In 2013, RUBIS introduced automated payment at its service stations in The Bahamas.](https://thenassauguardian.com/2013/05/16/auto-payment-at-pumps-sparks-layoff-fears/){target="_blank"} Retailers were not impressed. 
+They were immediately concerned that jobs would be lost, even though automation would clearly bring better service at a lower cost. How should retailers have responded to the loss of employment it would bring?
+
+**Innovation is a disruptive process that threatens us constantly.** Innovation is a continuous process. Innovation is the path to progress. Innovation means we must implement new technology today. But innovation also means we must replace it five years in the future when it becomes obsolete. If we halt the march of innovation, we harm our entire nation.
+
+The question is not about the implementation of a single technology today. The question we face is whether we will choose to create a society where new innovation, technology and change is accepted, embraced, and sought after. Every generation of every nation must face this question. 
+
+####Where do we start? Let's look at the current state of affairs. 
+The chart below shows that there was very little change in the industries Bajans worked in from 1990 to 2009^1^. The decline of manufacturing and agriculture, and the rise of financial and other services, are the only two noticeable changes.
+
+```{r sectors, echo=FALSE, message=FALSE,  warning=FALSE, fig.width=8,fig.height=3.5, fig.align='center'}
+emp <- read_excel("~/Box Sync/WSABE/Emp by Sector old.xlsx")
+emp$Total <- NULL
+data <- melt(emp, id.vars="Period")
+
+d1990 <- data[which(data$Period=="4Q 1990"),c("variable","value")]
+d2009 <- data[which(data$Period=="4Q 2009"),c("variable","value")]
+
+d1990 <- d1990 %>% mutate(share=(value/sum(value))*250)
+d2009 <- d2009 %>% mutate(share=(value/sum(value))*250)
+
+d1990 <- d1990 %>% arrange(variable)
+d2009 <- d2009 %>% arrange(variable)
+
+v1990 <- d1990$share
+names(v1990) <- d1990$variable
+v2009 <- d2009$share
+names(v2009) <- d2009$variable
+
+colsch <- c("aliceblue","aquamarine","lightpink","coral","thistle2","cyan1","brown1",
+            "darkgoldenrod1","darkgray","dodgerblue")
+
+iron(
+  waffle(v1990, colors=colsch, rows = 5, size = 1, legend_pos = "none", title="1990"),
+  waffle(v2009, colors=colsch, rows = 5, size = 1, legend_pos = "bottom", title="2009")
+)
+```
+
+From 1990 to 2009, there was little structural change in the jobs we did. We continued doing the same jobs probably in the same way, even though the world around us changed at the speed of light. This is entirely consistent with the failure of [productivity](/weshouldallbeeconomists/2018/04/10/productivitybb/){target="_blank"} and [creative destruction](/weshouldallbeeconomists/2018/05/01/creative-destruction/){target="_blank"}.
+
+#### What are the options?
+When innovation makes a job obsolete, we have two choices. We can choose to oppose new technology so that workers can keep their jobs. Or we can choose to actively implement technologies that make our lives better, and look out for those who might be harmed by these innovations.
+
+In the short run, the easy option is to oppose technology so that no one gets laid off. But in the long run, our lives gradually become worse and worse without us noticing. Only by embracing technology and innovation will we keep making our little world a better place to live.
+
+#### How do we look out for workers? 
+By **protecting workers, not jobs**. Rather than trying to ensure that no one loses their job, let us focus on making sure that workers can always find new jobs. 
+
+* Make it easy for firms to both hire and fire new workers. This will make it easier for firms to adopt new technology. The great thing about new technology is that there are always new and exciting jobs being created!
+* Give unemployed workers more money. Make sure that when a person loses their job, they can maintain a good standard of living. This makes a worker less scared of losing their job. 
+* Train unemployed workers for new and exciting careers! Rather than this being a setback, turn unemployment into a new beginning. Provide immediate training in a range of skills, and help them find new jobs.
+
+#### What do we need to get this done?
+We need a new social contract between unions, businesses, and government. No more outrageous demands, predatory behaviour, or refusal to engage. We must demand open, transparent and positive dialogue. We must meet in good faith, and work together to achieve the goal of protecting workers.
+
+> In 1965, Dr. Martin Luther King said "we must develop a federal program of public works, retraining, and jobs for all---so that none, white or black, will have cause to feel threatened. At the present time, thousands of jobs a week are disappearing in the wake of automation and other production efficiency techniques."
+
+Rather than opposing innovation, let us create a system where no one feels threatened by innovation. We need a strong relationship among unions, workers, businesses, and the government. We have to try to protect one another. Let's work towards the common goal of **protecting workers, not jobs.**
+
+***
+
+1. *I only use data until 2009 since the way it's broken down changes after that.*
