@@ -1,0 +1,115 @@
+---
+title: Life, Debt, and Default
+author: Simon Naitram
+date: '2018-06-22'
+slug: life-debt-and-default
+categories: []
+tags: []
+type: "post"
+image: "weshouldallbeeconomists/img/debt.jpg"
+description: "Let default be a warning to our future selves."
+draft: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+library(ggplot2)
+library(reshape2)
+library(directlabels)
+library(ggtech)
+library(dplyr)
+```
+
+**Life, debt, and now default.** Barbados has reached the final stage of its illness. This isn't our sob story. This is the tale of how we got here. This post isn't a eulogy---it's a lesson, a warning to our future selves. 
+
+The reason the government has [defaulted](https://www.ft.com/content/1e6db984-6839-11e8-8cf3-0c230fa67aec){target="_blank"} on the country's public debt is simple: the government just doesn't have enough money to *both* keep paying back its loans *and* keep the country's services running. The government chose to keep the country running.
+
+How did the government reach this breaking point? Did the government simply borrow more than it could repay? The economics of government debt aren't that simple. The government might have borrowed too much---it certainly made some bad financial decisions---but that's not the real economic story.
+
+**The underlying economic mistake leading to default is that our government did not invest.** It's not that we spent too much money. Instead it's that we spent our money on the wrong things. For a decade we did not invest in a brighter future. Now that we've reached that future, it's a dark and miserable place.
+
+A government's debt is measured relative to how rich its people are. Bill Gates borrowing a million dollars isn't the same as me borrowing a million dollars. The richer we the people are, the more money the government gets from taxing us. A 20% tax on $100 gives the government way more revenue than a 20% tax on \$20.
+
+All governments in the world spend more money than they get in taxes. Governments then borrow extra money to keep spending. Some borrow huge sums of money and keep borrowing, almost as if they had a limitless credit card.
+
+Is this sustainable? Sometimes. [Governments aren't households](https://www.washingtonpost.com/blogs/wonkblog/post/the_government_is_not_a_household_and_shouldnt_be_run_like_one/2011/04/13/AF21jOjD_blog.html?noredirect=on&utm_term=.6bd0e605e5f7){target="_blank"}---governments are expected to 'live forever'. Because we expect them to live forever, a government never actually has to pay back ALL of its debts! A government can take out five loans, repay half of one, and immediately take out a sixth loan. In fact, a government only needs to be able to make *the next loan payment*. Crazy, right?
+
+**Sometimes debt can actually be good.** A government can spend borrowed money on things that make us richer. When the government makes us richer, it collects more money in tax revenue. That additional tax revenue can then be used to pay back the original loan. Magic? There's obviously a catch. The catch is that only *certain types of spending* make the country richer.
+
+[Spending on public investment definitely makes us richer.](https://www.ft.com/content/9b591f98-4997-11e4-8d68-00144feab7de){target="_blank"} Public investment is when the government spends on, buys, or builds something that won't be consumed today, but that will be used in the future to generate wealth. The most obvious type of [public investment](https://www.britannica.com/topic/public-investment){target="_blank"} is stuff like constructing buildings, airports, highways, and hotels.^1^ 
+
+**Public investment creates opportunities for private business and private investment.** When the government provides new infrastructure, it lays the foundation for new businesses to spring up and for old businesses to expand. In fact, public investment can facilitate [creative destruction](/weshouldallbeeconomists/2018/05/01/creative-destruction/){target="_blank"}, which we discussed in an earlier post.
+
+> Here's an example of how public investment works. If the government builds a new port, it means that more cruise ships can come into Barbados. More cruise ships mean more tours around the island, more restaurants get business, the cruise ships pay fees to dock, and you might even get cool new adventure companies popping up. These are examples of how government spending can increase economic activity. As companies make more sales, they make more money, and pay more tax dollars to the government. Over time, the resulting increase in tax revenue becomes enough to pay for the initial spending on the new port.
+
+Since 2009, Barbados drastically reduced public investment. From 1996 to 2008, average public investment was **14.5%** of total government spending. From 2008 to 2015, average public investment was only **4.6%** of total government spending. The chart below shows this massive shift in government policy. It was a huge mistake.
+
+```{r spending, echo=FALSE, message=FALSE,  warning=FALSE, fig.width=7,fig.height=3.5, fig.align='center'}
+gov <- read_excel("~/Box Sync/WSABE/govt exp.xlsx")
+gov$Year <- format(as.Date(gov$Quarter),"%Y")
+gov <- gov[which(gov$Year<"2016"),]
+gov <- gov %>% group_by(Year) %>% summarise_all(sum)
+gov$Capital <- gov$`Capital Expenditure`/(gov$`Current Expenditure`+gov$`Capital Expenditure`)
+gov$RevSpend <- gov$Revenue/(gov$`Current Expenditure`+gov$`Capital Expenditure`)
+gov <- gov %>% mutate(RevCh=(Revenue/lag(Revenue)))
+#gov$RevCh <- gov$Revenue/gov$Revenue
+govexp <- melt(gov, id.vars="Year", measure.vars = c("Capital"))
+govexp$Year <- as.numeric(govexp$Year)
+govexp$col <- ifelse(govexp$Year>2008,"A","B")
+govrev <- melt(gov, id.vars="Year", measure.vars = c("RevCh"))
+govrev$value <- govrev$value-1
+govrev$Year <- as.numeric(govrev$Year)
+
+
+#plot barchart
+ggplot(govexp, aes(x=Year)) +
+  geom_bar(aes(y=value, fill=col), stat="identity") +
+  theme_tech(theme="google") +
+  #scale_color_tech(theme="google")+
+  scale_fill_tech(theme="google")+
+  theme(legend.position="none") + 
+    labs(x="Year", y="% of Total Spend", title="Public Investment in Barbados", 
+         subtitle="The mistake of not investing")
+  #geom_line(data = govrev, aes(x=Year, y=value), size=1.5, color="#FFBF03")
+```
+
+As I described earlier, public investment makes us all richer. How do we define rich? We can measure a country's income by our [Gross Domestic Product](http://edu.bankofengland.co.uk/knowledgebank/what-is-gdp/){target="_blank"} (GDP). GDP simply captures the dollar value of everything we sell. GDP includes things we sell to other Bajans, and things we sell overseas. These can be services (like massages or consulting), or physical goods (like paintings or Tea Times biscuits).
+
+The result of the decline in public investment is that in 2009, the country simply stopped getting richer. By 2017, Barbados was 2.4% *poorer* than it was in 2008. Some blame this on the global recession, but it isn't a coincidence that income stopped growing at exactly the same time public investment fell. Government debt kept rising because the government continued to borrow and spend---but desperately little of that borrowed money was spent on public investment.
+
+```{r debt, echo=FALSE, message=FALSE,  warning=FALSE, fig.width=7,fig.height=3.5, fig.align='center'}
+dg <- read_excel("~/Box Sync/WSABE/debt and gdp.xlsx")
+dg$GDP <- dg$GDP / 1000
+dg$Debt <- dg$Debt - dg$Debt[1]
+dg$GDP <- dg$GDP - dg$GDP[1]
+dg <- melt(dg, id.vars="Year")
+
+ggplot(dg, aes(x=Year, y=value, color=variable)) +
+  geom_line(size=1.5) +
+  theme_tech(theme="google") +
+  scale_color_tech(theme="google") + 
+  geom_dl(aes(y=value, label = variable, color=variable), method = list(cex = 1.5,"last.points")) + 
+  scale_x_continuous(breaks=seq(1994,2020,8), labels=seq(1994,2020,8)) +
+  #scale_y_continuous(breaks=seq(0,40,10), labels=c("0%","10%","20%","30%","40%")) +
+  labs(x="Year", y="Billions of Barbados dollars", title="Debt and GDP in Barbados", 
+         subtitle="What happens when you stop investing") +
+  theme(legend.position="none") +
+  geom_vline(xintercept=2008, linetype="dotted")
+```
+The chart says that the problem isn't that debt grew too fast. Instead, the problem is that GDP just stopped growing. GDP is a measure of income, and represents our ability to repay our debt. After a decade of no GDP growth, its no surprise that we simply could not repay our debt. The result is that our government debt is now 1.7 times larger than our national income (or more). For a decade, we forgot that the economy needed to grow. *For a decade, we forgot to invest.*
+
+It's important to clean sidewalks. It's vital we keep the prison running. Regulating the building code is a useful function of government. **But these do not make incomes grow.** In 2015 the government spent \$14,000 per Bajan on the daily functions of government alone. At the same time they spent a mere \$700 per Bajan investing in our future. We have misused the opportunities---and finances---given to us.
+
+**Public investment is absolutely necessary for incomes to grow.** The new government of Barbados has increased public investment from 4.8% of total spending last year to 12% of total spending in the new budget. This is a step in the right direction, but only a small one. We need public investment to stimulate both economic activity and private investment.
+
+We cannot fool ourselves into thinking that public investment is a one-off payment. We need to make new investments in our infrastructure, in our technology, and in our people---every single year. We cannot ever stop investing. And we must make up for a decade of lost investment. What better time to do it? Public investment has an especially large impact when the country is at its worst.^3^
+
+**We've seen the disastrous effects when the government stops investing in Barbados. Public investment is the closest we will get to a cure for Barbados' illness. We can only create a brighter future if we invest in one. This is the lesson we must learn.**
+
+
+***
+
+1. There's an argument that spending on health care and education can also be considered public investment. I agree with this argument, but I'll discuss it in a later post.
+2. Data for both these charts was obtained from the Central Bank of Barbados' [website](www.centralbank.org.bb).
+3. For a full discussion of how different types of government spending affect output at different points of the business cycle, see ["Three states of fiscal multipliers in a small open economy"](http://www.accessecon.com/Pubs/EB/2015/Volume35/EB-15-V35-I1-P76.pdf).
