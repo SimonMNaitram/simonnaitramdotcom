@@ -60,6 +60,7 @@ govexp$col <- ifelse(govexp$Year>2008,"A","B")
 govrev <- melt(gov, id.vars="Year", measure.vars = c("RevCh"))
 govrev$value <- govrev$value-1
 govrev$Year <- as.numeric(govrev$Year)
+govexp$value <- govexp$value * 100
 
 
 #plot barchart
