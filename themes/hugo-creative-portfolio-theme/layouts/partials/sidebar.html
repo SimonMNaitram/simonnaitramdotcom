@@ -17,20 +17,7 @@
       {{ partial "widgets/tags.html" . }} 
 
     </ul>
-    
-    {{ with .Site.Params.social.subscribe }}
-    <a href="{{ . }}" target="_blank" data-animate-hover="pulse">
-        <i class='fa fa-rss'></i>
-        <span>Subscribe</span>
-    </a>
-    {{end}}
-    
     {{ partial "socialButtonsInSideBar.html" . }}
-    
-    <script src="//yihui.name/js/math-code.js"></script>
-    <script async
-        src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
-        </script>
 
     <div class="copyright">
       <p class="credit">
@@ -42,4 +29,3 @@
     </div>
   </div>
 </div>
-

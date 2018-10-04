@@ -19,12 +19,6 @@
                           <p class="date-comments">
                           <i class="fa fa-calendar-o"></i> {{ .Date.Format "January 2, 2006" }}
                           </p>
-                          
-                          <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-                              <circle cx="16" cy="16" r="14" />
-                              <path d="M16 8 L16 16 20 20" />
-                          </svg>
-                          <span>{{ .ReadingTime }} minute read</span>
 
                           {{if eq .Section "portfolio"}}
                           <p class="author-category"><b>{{ .Summary }}</b></p>
@@ -55,8 +49,5 @@
 
          {{ template "_internal/disqus.html" . }}
       </div>
-
-<script>renderMathInElement(document.body);</script>
-
    
 {{ end }}
