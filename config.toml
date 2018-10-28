@@ -17,10 +17,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "The Blog of an Economics PhD student from Barbados"
+  description = "The Blog of an Economist from Barbados"
   copyright = "&copy;2018 Simon Naitram"
   sidebarAbout = [
-    "An economics PhD student plotting to save the world by dinner.",
+    "An economist plotting to save the world by dinner.",
     "The home of We Should All Be Economists."
   ]
   # Contact page
