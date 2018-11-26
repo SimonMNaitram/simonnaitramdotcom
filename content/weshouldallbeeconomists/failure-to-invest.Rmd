@@ -28,7 +28,7 @@ Let me make it plain. Investment in new businesses, new technologies, and new id
 
 Why is it that we don't invest? What can we do to fix this fatal flaw?
 
-The first problem is that we save *only* 13.6% of our income. The rest of the world saves 23.1% of its income. Our savings are paltry in comparison to the investment hole we need to fill. We simply don't put aside enough money for our businesses to invest.
+The first problem is that we have failed to save. At the end of 2017, the total amount of money the country had stashed away in savings was a mere 13.6% relative to our annual national income.^1^ Even in 2007, Barbados' [gross savings](https://data.worldbank.org/indicator/NY.ADJ.ICTR.GN.ZS){target="_blank"} were only 12.9% relative to income. At that time, the global average was 25.1%. That means we were 179^th^ out of 200 countries on that list. Our savings are paltry in comparison to the investment hole we need to fill. We simply have not put aside enough money for our businesses to invest.
 
 And yet, commercial banks don't want our cash. They offer us a ridiculous 0.05% interest rate on our savings. Why? In 1990, the banks lent 68% of our savings to businesses. Lending to businesses is risky, but it is productive investment that generates high returns and grows the economy. In 2018, the banks have lent *only 28%* of our savings to businesses! Banks have stopped channeling our funds into productive economic activity---which is in fact their *one job*.
 
@@ -122,3 +122,8 @@ We live in an outdated, inefficient, and unproductive society. We are poor, frus
 3. **Businesses and entrepreneurs**: You must invest! Take a risk. Quit your job. Expand your business. Start a new gig. Be creative. Explore the global market. Innovate. You are the heartbeat of the Barbados economy. You *are* the Barbados economy. Take our money!
 
 Without risk, there is no reward. Without investment, there is no growth. Without growth, the people perish.
+
+
+***
+
+^1^ Thanks to a kind reader pointing out that the 13.6% savings was misleading. It is the total savings (total deposits) to income (gross national income) ratio rather than the savings rate (which is how much you save of this year's income). Total deposits comes from the Central Bank of Barbados' online data.
