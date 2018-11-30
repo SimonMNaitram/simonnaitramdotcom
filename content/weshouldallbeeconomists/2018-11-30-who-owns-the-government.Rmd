@@ -1,0 +1,61 @@
+---
+title: Who Owns the Government?
+author: Simon Naitram
+date: '2018-11-30'
+slug: who-owns-the-government
+categories: []
+tags: []
+type: "post"
+image: "weshouldallbeeconomists/img/bdos_finger_small.png"
+description: The case for direct democracy.
+draft: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+>In 2013, the Barbados Water Authority decided to build a spanking new [63 million dollar](https://barbadostoday.bb/2014/03/26/bwa-home-50-per-cent-complete/){target="_blank"} building---without our consent. And it's now costing you [$1 million a month](https://www.barbadosadvocate.com/news/contracts-be-renegotiated){target="_blank"}. The Barbados Water Authority is [$500 million in debt](https://barbadostoday.bb/2018/05/03/drowning-in-debt/){target="_blank"}.
+
+Why did they need a new 80,000 square foot building when the [lovely people of St Joseph](https://www.pressreader.com/barbados/daily-nation-barbados/20130402/281582353090903){target="_blank"} were pleading for a glass of water, for a shower, for the [basic human right to water and sanitation](http://www.un.org/waterforlifedecade/human_right_to_water.shtml ){target="_blank"}?
+ 
+Is this a decision that you would've made? Is this a decision that we, *the people of Barbados*, would've made?
+
+**Who owns the Government of Barbados?** Everyone I ask already knows the answer. And yet they’re usually reluctant to answer. But *you* already know the answer.
+
+**We the people of Barbados are the sole owners of the Government of Barbados.** Then why is it that when our governments make bad decisions there is nothing we can do? Why are we powerless? Is this just how democracy works?
+
+The word democracy stems from a combination of two Greek words: [demos and kratos](https://en.wikipedia.org/wiki/Demokratia){target="_blank"}. Literally: 'people power'. But this word kratos doesn't mean power in the sense of rulership. It speaks of the people's collective strength and ability to make change in the public realm.
+
+Demokratia actually means ['the empowered people'](https://www.princeton.edu/~pswpc/pdfs/ober/090704.pdf){target="_blank"}. With the creation of the word demokratia in 500 BC, the Athenians gave birth to [direct democracy](https://en.wikipedia.org/wiki/Direct_democracy){target="_blank"}. 
+
+**What is direct democracy?** Direct democracy means that the people have the right to decide on their policies and laws. Direct democracy is the purest form of democracy. In direct democracy, power lies with the people.
+
+Today, direct democracy works through two processes: [**Initiative and Referendum**](http://www.ncsl.org/research/elections-and-campaigns/initiative-referendum-and-recall-overview.aspx){target="_blank"}. Initiative means that ordinary citizens can propose a new policy or law. It then has to gather enough signatures so that it can go to a vote by parliament or by the people. Referendum is a nation-wide vote on a specific issue. This issue can either be proposed by the people or by parliament. A referendum can also be called by the people to reject acts of parliament that we don't agree with.
+
+**Direct democracy is becoming popular.** In the U.S., 100 citizen-proposed initiatives went to vote in the 1960s. This [jumped to about 375](http://www.iandrinstitute.org/data.cfm){target="_blank"} in each of the 1990s and the 2000s. In the recent U.S. midterm elections, there were [155 statewide votes](https://ballotpedia.org/2018_ballot_measures){target="_blank"} on policy issues. Issues on the ballot ranged from taxes to minimum wages; from healthcare to marijuana! Last weekend alone, [thirty million citizens](https://www.swissinfo.ch/eng/politics/historic-vote-weekend_champions-league-finals-for-modern-direct-democracy/44562998){target="_blank"} in four countries across the world voted on 15 different issues.
+
+**Does direct democracy actually work?** Both theory and evidence suggest that [it does](https://pubs.aeaweb.org/doi/pdfplus/10.1257/0895330054048713){target="_blank"}! Initiatives and referenda can override bad policy decisions, and causes policymakers to think twice about enacting bad policy. 
+The biggest argument against direct democracy is that ordinary citizens lack the expertise to make good decisions. This argument basically boils down to the view that 'we're stupid', and so I’m not even going to touch it. Instead, I’ll tell you that the [collective wisdom](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd){target="_blank"} of hundreds of thousands of us can be harnessed to make decisions that represent our beliefs far better than any 30 people can. 
+
+The chaos of [Brexit](https://www.bbc.com/news/uk-politics-32810887) immediately comes to mind. But Brexit is [not direct democracy](https://blogs.kent.ac.uk/uk-eu-ref-watch/2015/11/17/the-brexit-referendum-and-direct-democracy-should-we-be-more-like-the-swiss/). Britain voted on an [unsatisfactory question](http://blogs.lse.ac.uk/brexit/2017/05/17/the-brexit-referendum-question-was-flawed-in-its-design/), with no right of initiative for the [public debate to mature](https://blogs.kent.ac.uk/uk-eu-ref-watch/2015/11/17/the-brexit-referendum-and-direct-democracy-should-we-be-more-like-the-swiss/), and no vote on the [final legislation](http://blogs.lse.ac.uk/politicsandpolicy/how-a-referendum-might-actually-support-democracy/). In fact, Britain's Government did not even want *parliament* to have [a final vote](https://www.bbc.com/news/av/uk-politics-38729021/gina-miller-on-brexit-ruling-parliament-alone-is-sovereign) on the legislation!
+
+True direct democracy encourages us to get engaged. It facilitates participation and debate. And despite all [its hazards](https://www.debatingeurope.eu/2016/12/07/internet-bad-democracy/#.XAGdzKfMyRY), the internet makes it easier than ever for us to get the information we need to make good decisions.
+
+From an economic perspective, evidence shows that direct democracy leads to less waste, higher economic growth, and higher levels of happiness. It even leads to lower debt! 
+
+>Here's an example that will hit home. In 1983, [a study](https://www.jstor.org/stable/40911894){target="_blank"}  showed that Swiss cities with direct democracy collected trash at a lower cost than cities without direct democracy. We might even get our [garbage collected!](https://barbadostoday.bb/2018/02/08/disgraceful/){target="_blank"}
+
+**Direct democracy gives us the opportunity to take control of our destiny.** When our governments make poor decisions, we have no remedy. We complain in the rum shops and the churches, but we have no way to fix it. When faced with ridiculous taxes, incoherent regulations, intransigent civil servants, and deep-rooted corruption, how do we change our world for the better? 
+
+**We need the power to set the policy agenda, and to make decisions for ourselves.** Direct democracy leads to decisions that benefit the many, not the few.
+
+**How do we get the government to do this?** The fact that you have to ask this question is exactly why it needs to be done. We have no process for deciding what policies we want, what laws we want, or what we want our political system to look like. 
+
+> Let me finish with another story. Barbadians are caring people. We donate money, food, clothes to help the poor. My mother has been feeding strangers for decades. In Barbados, around [17.5% of our families live in poverty](http://www.cbc.bb/index.php/news/item/2059-poverty-on-the-rise-in-barbados), on less than $650 a month. Did you know that [only 0.5%](https://www.barbadosparliament.com/document/listall/3){target="_blank"} of our government's total budget is dedicated to welfare payments?
+
+**Is this the Barbados you want to live in?**
+
+This is a call to rise above your station. It is time for a fundamental shift in how policy is made in Barbados. It is time we stop asking the government to think for us. 
+
+**I invite you to think with our government.**

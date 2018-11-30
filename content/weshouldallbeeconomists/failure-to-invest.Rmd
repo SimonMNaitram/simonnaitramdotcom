@@ -81,7 +81,7 @@ ggplot(stock, aes(x=lngdp, y=priv_gov)) +
 
 ```
 
-What is the result of our failure to invest? A lack of investment means there's no innovation. No innovation means no income growth. Barbados' average income per person has not grown since 2008. From 2008 to 2017, Barbados' average income shrank by 2.8%. Compare that to the period 1992 to 2007, during which Barbados' national income literally doubled. Had we kept up that growth rate, national income would have been \$45,000 per person in 2017. The stark reality is that national income was only \$31,000 in 2017. We have lost out on a 43% increase in our incomes. Our failure to invest is the reason your salary hasn't increased.
+What is the result of our failure to invest? A lack of investment means there's no innovation. No innovation means no income growth. [Barbados' average income per person](https://data.worldbank.org/indicator/NY.GNP.PCAP.CD?locations=BB){target="_blank"} has not grown since 2008. From 2008 to 2017, Barbados' average income shrank by 2.8%. Compare that to the period 1992 to 2007, during which Barbados' national income literally doubled. Had we kept up that growth rate, national income would have been \$45,000 per person in 2017. The stark reality is that national income was only \$31,000 in 2017. We have lost out on a 43% increase in our incomes. Our failure to invest is the reason your salary hasn't increased.
 
 ```{r gni, echo=FALSE, message=FALSE,  warning=FALSE, fig.width=6,fig.height=4, fig.align='center'}
 
