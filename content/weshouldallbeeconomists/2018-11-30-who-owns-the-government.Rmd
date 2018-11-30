@@ -8,7 +8,7 @@ tags: []
 type: "post"
 image: "weshouldallbeeconomists/img/bdos_finger_small.png"
 description: The case for direct democracy.
-draft: true
+draft: false
 ---
 
 ```{r setup, include=FALSE}
