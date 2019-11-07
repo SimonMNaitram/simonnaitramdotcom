@@ -1,0 +1,80 @@
+---
+title: A Proposal for Solving Public Transport
+author: Simon Naitram
+date: '2019-10-25'
+slug: a-proposal-for-solving-public-transport
+categories: []
+tags: []
+type: "post"
+image: "weshouldallbeeconomists/img/bus.png"
+description: "The public transport disaster"
+draft: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+
+#### Fixing Public Transport
+
+Public transport in Barbados is an urgent matter. We have around 63 cars per kilometre of road, and that was measured in 2004. We have the 12th highest rate of accidents per capita and 23rd for road fatalities per capita. We have the highest road density in the Western Hemisphere, and at 387 cars per 1,000 persons (4 cars for each 10 people), we are 20th on the list of cars per person. 
+
+Meanwhile, public transport is in crisis. Not that it ever functioned properly, but with the Transport Board facing severe shortages and higher bus fares, we need a clear but implementable solution.
+
+What are the benefits of fixing public transport? First, it is cheaper. Second, public transport means more persons in each vehicle, meaning less vehicles on the road, reducing traffic and getting you where you are going faster. Third, the less vehicles, the less oil we need to import for fuel, and the less cars we import. Fourth, the less vehicles on the road, the less often we need to fix the road.
+
+This is a purely economic analysis of the problem and the potential solutions. This is a step-by-step approach, founded in the traditional principles of public economics.
+
+#### Step 1: The Problem
+The Government of Barbados sets the price of bus fare because it is afraid that private transport operators (the public service vehicles or PSVs) would set a price that is too high. ‘Too high’ means that the price would be too burdensome on the poorest in society. 
+This creates an obvious problem. Some public transport routes are more profitable than others. At $2 or even $3.50, some routes would be unprofitable. Private operators would choose not to operate those routes. 
+
+To fix the problem of unprofitable routes not being serviced at the low price, the Government of Barbados chose to service those routes itself through the Transport Board buses. Obviously, then, the Transport Board must be taking on unprofitable routes, and therefore shouldn’t logically be expected to make a profit. The Transport Board is therefore not in competition with PSVs, but is designed to operate the unprofitable routes at a low fixed bus fare.
+
+#### Step 2: The Taxes
+
+Public service vehicles pay taxes. They pay tax on the import of vehicles, they pay taxes to license their vehicles, they pay registration fees, and they pay fuel tax at the pump. But this is not the full story. Let me introduce you to an important economic concept called [tax incidence](https://en.wikipedia.org/wiki/Tax_incidence){target="_blank"}. It is obvious that PSVs hand over these taxes to the government. But since the bus fare was increased from $2 to $3.50, it means that commuters are the ones effective paying these taxes. Barbadians who take public transport bear the *economic incidence* of all taxes paid by the PSVs.
+
+#### Step 3: Profitable v Unprofitable
+The Transport Board is unprofitable beyond comprehension. While we don’t expect them to make a profit, last year they made a \$20 million and spent \$65 million, meaning they made a \$45 million loss. We each spend \$22.50 every month just keeping the Transport Board alive.[^3]
+
+In contrast, PSVs have been making substantial profits for the past 5 years. In economics, people’s actions reveal the truth. You will only buy and operate a PSV if you believe it is going to be profitable. And you will only keep that PSV running if it continues to make profits. The increase in PSVs means that they were making profits. Profits attract new PSVs. Losses would run them out of business. For the past 5 years, the number of PSVs increased by a whopping 60%, from 500 to 800.[^2]
+
+The increase in bus fares in 2010 were explicitly designed to “improve the finances at the Transport Board".[^4] Instead, the Transport Board made even greater losses. And with a 75% increase in prices, this could substantially reduce the number of passengers taking the Transport Board. Even if all goes well, the increase in price will only increase revenue to \$35 million, still accruing $30 million in losses. 
+
+#### The Economics of Transport
+Demand for public transport increases as the number of public transport vehicles on the road increases. Why? The more on the road, the shorter your waiting time, the faster you get to your destination. Similarly, the greater the number of routes, the higher the demand for public transport. Why? The shorter your walk to or from the bus stop, the shorter your travel time. 
+
+Therefore, public transport is one of few services where the greater the supply is, the higher the demand will be. Consider the simple example of having 1 bus every hour versus six small vans every hour. In the first case, your maximum waiting time is 59 minutes. In the second case, your maximum waiting time is 9 minutes.
+
+#### The Public Economics of Government Intervention
+Public economics tells us that a government should only intervene in the private market when there is a specific market failure. In this case, the market failure is that prices would be higher than socially acceptable. When the government does intervene, it should intervene only so far as is required to fix that market failure.
+
+The government might need to set the bus fare itself to keep the price of bus fare low. However, it might be overextending itself in attempting to provide public transport itself. Can the solution to the problem be found by a means that is cheaper than $65 million? 
+
+The increase in price is inefficient because higher prices caused by taxes will reduce the number of people taking the bus. Further, it is inequitable because the poorest people in society bear the brunt of these taxes. Barbadian incomes have fallen by 5% since 2008 while bus fare has increased from \$1.50 to \$3.50.[^1]
+
+#### The Economic Solution
+Since the Government wants to keep the price of bus fare low, the market failure that arises is that there will be unprofitable routes which private owners will choose not to service.
+
+The economic solution is simple:
+
+> Reduce costs to PSVs by removing all taxes they pay. Remove import duties and VAT. Remove registration and permit fees. All taxes they pay are passed onto commuters. The principle of economic efficiency says these taxes should be removed before prices are increased.
+
+> Give PSVs a subsidy to operate on unprofitable routes. Subsidies are only for unprofitable routes. This will cost us far less than the \$65 million it costs to operate 50 buses. We currently pay \$1.3 million for one bus each year. We can give 130 subsidies of \$10,000 each to PSVs for the price of \$1.3 million we pay for a single bus.
+
+> Allow all willing PSV operators to enter the market. Create as many new routes as possible to create a fully connected network. This will reduce waiting time and increase demand for PSVs.
+
+#### I dream of great public transport.
+
+Imagine a Barbados where public transport comes every 5 minutes. Imagine a Barbados where public transport runs everywhere. Imagine a Barbados without constant traffic. Imagine a Barbados where you can get public transport after midnight. We can achieve this. We just need to be smart about it.
+
+
+[^1]: Nominal Gross National Income per capita has fallen by 5% from 2008 to 2017, while Real Gross National Income per capita, which measures average purchasing power, has fallen by 35% from 2008 to 2017.
+[^2]: Data from the Prime Minister's [Budgetary Proposals and Financial Statement](https://www.barbadosparliament.com/uploads/quick_link/5a709209b6611c1aea0ffd80493bae99.pdf){target="_blank"}, 2019: 
+[^3]: The population of Barbados is approximately 292,336 with 82% of the population over 14 years old.
+[^4]: https://www.pressreader.com/barbados/daily-nation-barbados/20101123/281625301699219
+[^5]: Image by <a href="https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2776732">Mohamed Hassan</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2776732">Pixabay</a>
+

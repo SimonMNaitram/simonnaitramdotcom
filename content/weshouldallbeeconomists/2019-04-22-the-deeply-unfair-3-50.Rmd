@@ -1,0 +1,81 @@
+---
+title: Is the Increase in Bus Fare Justified?
+author: Simon Naitram
+date: '2019-04-22'
+slug: the-unfair-and-inefficient-350
+categories: []
+tags: []
+type: "post"
+image: "weshouldallbeeconomists/img/bus.png"
+description: "The public transport disaster"
+draft: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+Everyone is wondering whether the increase in bus fare from \$2 to \$3.50 was justified. Was it the right decision? Should it have been kept at \$2? Is there something else we could have done?
+
+Let's take a step-by-step economic look at the problem of public transport in Barbados. 
+
+#### First, let's try to understand how we got here. 
+
+Why is it that the Government of Barbados has, for a long time, been the one who sets the price of bus fare? Why doesn't the Government simply let the Public Service Vehicles (PSVs) set the price? This would be simply the market to do its job, no?
+
+The Government is obviously concerned that PSVs would charge a price that is too high. But what does too high mean? Too high means that it would be too much of a burden on the poorest people in society. Those who cannot afford to buy a private vehicle are typically the ones who take the bus.
+
+However, fixing the price of bus fare at a low rate creates another problem. At \$2 or even \$3.50, there are some bus routes in Barbados that simply wouldn't be profitable. What would a private owner do? They'd just stop running that route. Instead they would find a more profitable route. This is why you see PSVs crowding on popular routes. This is a very straightforward economic decision. 
+
+To fix the problem of unserviced routes caused by the low price, the Government of Barbados needs to service those routes itself. Hence, the existence of the Transport Board bus. It is clear that Transport Board routes will be the unprofitable routes. So it should also be clear that the Transport Board should never be expected to make a profit.
+
+#### Second, let us analyse the bus fare increase.
+
+The price of bus fare is fixed so as to be socially acceptable. That is, it should be affordable to the poorest in society. So an increase in the bus fare should only happen when the incomes of the poorest in Barbados have increased. 
+
+Have incomes increased? Unfortunately, average incomes in Barbados have *fallen* by 5% since 2008.[^1] In that time, two Governments of Barbados have seen fit to increase the price of bus fare. Bus fare has gone from \$1.50 to \$3.50, an increase of 133%. These bus fare increases are directly in opposition to the stated aim of keeping prices for public transport at a socially acceptable level.
+
+It appears that the cost of operating public transportation in Barbados became too high, so that the price needed to be increased. Was this price increased needed by the PSVs or by the Transport Board? 
+
+Well, PSVs have been making substantial profits for the past 5 years. How do I know? You only buy a ZR if you think it's going to be profitable. You only keep the ZR if you're making profits. So the number of ZRs would only increase if they were profitable. And for the past 5 years, the number of PSVs increased by a whopping 60%, from 500 to 800.[^2]
+
+Did something change recently? Well, the imposition of two taxes on PSVs made it quite difficult for them to be profitable. First, the NSRL was imposed on diesel, and later the [Fuel Tax](https://barbadostoday.bb/2018/06/25/budget-squeeze/){target="_blank"}. These taxes substantially increased the cost of PSV operation. 
+
+But let me introduce you to a very important economic concept: [tax incidence](https://en.wikipedia.org/wiki/Tax_incidence){target="_blank"}. PSVs obviously pay the fuel tax at the pump. But are they really the ones bearing the burden of the tax? Well, they were. Until bus fare was hiked to \$3.50. Now, the incidence of the fuel tax has been passed on to the commuter. That is, Barbadians who take the bus are the ones effectively paying the fuel tax---not the PSVs.
+
+Did the Transport Board need the increase in bus fare in order to survive? Well the Transport Board reportedly spent \$65 million last year, but made only \$20 in revenue. That is a \$35 million loss. In other words, we each spend \$22.50 every month just keeping the Transport Board alive.[^3]
+
+Does an increase in bus fare help the Transport Board make a profit? Let's do some simple economics. If it made \$20 million last year with each ride priced at \$2, then it means there were 10 million passengers during the year. So increasing the price to \$3.50, should give the Transport Board at most \$35 million in revenue if there are the same number of passengers. But hold on! Economics tells us that demand for any product falls when the price increases. Increasing the price by 75 percent to \$3.50 could substantially reduce the number of passengers taking the Transport Board. It's highly unlikely revenue will increase to \$35 million.
+
+In 2010 when the price of bus fare increased from \$1.50 to \$2, the Government explicitly stated that the fare increase was an "effort to improve the finances at the Transport Board".[^4] But didn't we already agree that the Transport Board is expected to make a loss? *If its job is to service unprofitable routes, then it must make a loss.*
+
+#### Finally, what is the economic solution? 
+
+Well, public economics tells us the government should only intervene to the extent that is needed in order to fix the problem. The problem is that the market-determined price of bus fare might be too high. But solving that problem creates another problem---the problem of unserviced routes. 
+
+So is the Transport Board the only solution to the problem of unserviced routes? Unlikely. There are two much simpler market-based solutions that would achieve the stated aim of keeping bus fares low. 
+
+**First, the Government can reduce the cost to PSVs by removing the taxes that they are forced to pay.** Not only do PSVs pay tax on fuel, they also pay high registration and permit fees. And worse, they pay the same import duties that a private individual would pay on their car. In contrast, taxis---which mainly serve tourists---receive duty-free concessions despite not providing a vital service to average Barbadians. 
+All of these taxes have been passed onto the commuter in the form of higher bus fares. Removing these taxes would make many more routes profitable for PSVs. In fact, an increase in bus fare should *never happen* while PSVs continue to pay taxes. 
+
+> In economics, we would say this is inefficient because higher prices caused by taxes reduce the number of people wanting to take the bus. And we say this in inequitable because it is the poorest people in society who bear the brunt of these taxes.
+
+**Second, the Government can give PSVs a subsidy for operating on the unprofitable routes.** It is likely that even with taxes removed, some routes might still be unprofitable. For those routes, the Government can provide PSVs with subsidies that would make it worth their while to run those routes. 
+
+Would this cost more than the Transport Board? Certainly not. It currently costs us \$65 million per year to operate 50 buses. We could subsidise a small portion of the operating cost for a small number of PSVs operating on a small number of unprofitable routes. It would cost us way less than \$65 million.
+
+#### I dream of great public transport.
+
+Imagine a Barbados where public transport comes every 5 minutes. Imagine a Barbados where public transport runs everywhere. Imagine a Barbados without constant traffic. Imagine a Barbados where you can get public transport after midnight. We can achieve this. We just need to be smart about it.
+
+
+
+
+
+[^1]: Nominal Gross National Income per capita has fallen by 5% from 2008 to 2017, while Real Gross National Income per capita, which measures average purchasing power, has fallen by 35% from 2008 to 2017.
+[^2]: Data from the Prime Minister's [Budgetary Proposals and Financial Statement](https://www.barbadosparliament.com/uploads/quick_link/5a709209b6611c1aea0ffd80493bae99.pdf){target="_blank"}, 2019: 
+[^3]: The population of Barbados is approximately 292,336 with 82% of the population over 14 years old.
+[^4]: https://www.pressreader.com/barbados/daily-nation-barbados/20101123/281625301699219
+[^5]: Image by <a href="https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2776732">Mohamed Hassan</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2776732">Pixabay</a>
