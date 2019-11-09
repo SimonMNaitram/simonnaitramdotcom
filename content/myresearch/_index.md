@@ -5,9 +5,7 @@ title = "My Research"
 
 <p style="color:#ef5285;font-size:30px;"> Working Papers</p>
 <a href="/myresearch/documents/opttax.pdf" target="_blank">Optimal Benefit-Based Corporate Income Tax</a>  <br>
-In this paper I derive an optimal benefit-based corporate tax rate formula as a function of the public
-input elasticity of profits and the (net of) tax elasticity of profits. My main argument is that the corporate tax is justified by the benefit principle: that firms should pay tax according to the benefits they receive from the public input. I argue that this is normatively fair. In this paper I apply the simply optimal tax formula to the United States, with a suggested corporate tax rate of public corporations between 35 to 59 percent.
-
+I argue that the corporate income tax is justified by the benefit view of taxation---that firms should pay tax according to the benefits they receive from using public inputs. Benefit-based taxation of firms is fair, both within and across countries. I derive a formula for the optimal benefit-based corporate tax rate. It is a function of two estimable elasticities: the public input elasticity of profits and the (net of) tax elasticity of profits. I empirically apply this formula to public firms in the United States, finding an optimal tax rate in the region of 35 to 59 percent.
 
 <span style="font-weight:bold">How Big Are Strategic Spillovers from Corporate Tax Competition?</span><br>
 The theory of tax competition tells us that when governments compete for mobile capital, tax rates fall below the social optimum, leading to revenue loss. How big a problem is the resulting revenue loss? The answer depends on how big strategic spillovers from corporate tax competition are. To estimate the size of strategic spillovers, I identify tax competition as being an optimal response to base spillovers. Approximating base spillovers by bilateral foreign direct investment stock, I find strategic spillovers to be a third of the magnitude of previous estimates. This implies much lower revenue loss from corporate tax competition loss than is commonly suggested.
