@@ -5,7 +5,7 @@ title = "About me"
 
  <p style="float: left; padding: 0 20px; "><img src="/img/display.jpg" height="300px" width="200px" ></p>
 
-I'm Simon Naitram, Assistant Lecturer at the University of the West Indies and PhD in Economics candidate at the University of Glasgow. I'm Barbadian, with a deep love for everything Caribbean. My research is mainly in the field of public economics. I chose economics because I want to make a real difference to the everyday lives of normal people.
+I'm Simon Naitram, Assistant Lecturer at the University of the West Indies. I completed my PhD in Economics at the University of Glasgow on corporate taxation. I'm Barbadian, with a deep love for everything Caribbean. My research is mainly in the field of public economics. I chose economics because I want to make a real difference to the everyday lives of normal people.
 
 To begin making a difference, I've started this blog to meet the need for a more public debate on economics, particularly in the Caribbean. I'm not just finding new and exciting ways to procrastinate, I promise.
 
