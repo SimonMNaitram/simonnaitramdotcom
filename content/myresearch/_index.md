@@ -8,6 +8,8 @@ title = "My Research"
 
 <a href="/myresearch/documents/taxcomp.pdf" target="_blank">How Big Are Strategic Spillovers from Corporate Tax Competition?</a>  <br>
 
+<a href="/myresearch/documents/basespillovers.pdf" target="_blank">Quantifying Heterogeneous Corporate Tax Base Spillovers in Europe</a>  <br>
+
 <br>
 <p style="color:#ef5285;font-size:30px;"> Publications </p>
 <a href="https://www.sciencedirect.com/science/article/pii/S0160738319301513" target="_blank">"Distance matters: the impact of physical and relative distance on pleasure tourists' length of stay in Barbados."</a> with Mahalia Jackman, Troy Lorde, and Tori Greenaway.  Annals of Tourism Research 80.102794 (forthcoming).

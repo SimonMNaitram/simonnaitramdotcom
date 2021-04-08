@@ -18,7 +18,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Use custom.css for your custom styling
   style = "default"
   description = "The Blog of an Economist from Barbados"
-  copyright = "&copy;2018 Simon Naitram"
+  copyright = "&copy;2021 Simon Naitram"
   sidebarAbout = [
     "An economist plotting to save the world by dinner.",
     "The home of We Should All Be Economists."
@@ -53,6 +53,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.navlinks]]
   name = "My Research"
   url = "myresearch/"
+  
+  [[params.navlinks]]
+  name = "My Teaching"
+  url = "myteaching/"
 
   [params.social]
   facebook      = "https://www.facebook.com/simon.naitram"
