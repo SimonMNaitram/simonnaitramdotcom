@@ -12,6 +12,8 @@ title = "My Research"
 <p style="color:#ef5285;font-size:30px;"> Publications </p>
 <a href="https://onlinelibrary.wiley.com/doi/10.1111/ecin.13048" target="_blank">"How big are strategic spillovers from corporate tax competition?"</a> Economic Inquiry (forthcoming). <a href="/myresearch/documents/taxcomp.pdf" target="_blank">(Working paper version)</a> 
 
+<a href="https://doi.org/10.1108/JHTI-03-2021-0084" target="_blank">"Segmenting tourists by length of stay using regression tree models"</a> with Mahalia Jackman.  Journal of Hospitality and Tourism Insights (forthcoming).
+
 <a href="https://www.sciencedirect.com/science/article/pii/S0160738319301513" target="_blank">"Distance matters: the impact of physical and relative distance on pleasure tourists' length of stay in Barbados."</a> with Mahalia Jackman, Troy Lorde, and Tori Greenaway.  Annals of Tourism Research 80.102794 (2020).
 
 <a href="https://www.emerald.com/insight/content/doi/10.1108/IJSE-03-2015-0047/full/html" target="_blank">"Does crime depend on the 'state' of economic misery?"</a>  with Troy Lorde, Mahalia Jackman, and Shane Lowe.  International Journal of Social Economics 43.11 (2016): 1124-1134.
