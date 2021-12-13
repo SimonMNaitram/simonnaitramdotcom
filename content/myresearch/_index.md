@@ -4,6 +4,8 @@ title = "My Research"
 +++
 
 <p style="color:#ef5285;font-size:30px;"> Working Papers</p>
+<a href="https://www.nber.org/papers/w29547" target="_blank">The Incidence of the Corporate Income Tax is Irrelevant for its (Benefit-Based) Justification</a> with Matthew Weinzierl. <br>
+
 <a href="/myresearch/documents/opttax.pdf" target="_blank">Optimal Benefit-Based Corporate Income Tax</a>  <br>
 
 <a href="/myresearch/documents/basespillovers.pdf" target="_blank">Quantifying Heterogeneous Corporate Tax Base Spillovers in Europe</a>  <br>
