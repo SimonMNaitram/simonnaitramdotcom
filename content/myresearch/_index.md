@@ -12,7 +12,9 @@ title = "My Research"
 
 <br>
 <p style="color:#ef5285;font-size:30px;"> Publications </p>
-<a href="https://onlinelibrary.wiley.com/doi/10.1111/ecin.13048" target="_blank">"How big are strategic spillovers from corporate tax competition?"</a> Economic Inquiry (forthcoming). <a href="/myresearch/documents/taxcomp.pdf" target="_blank">(Working paper version)</a> 
+<a href="https://doi.org/10.1111/dme.14888" target="_blank">Indirect costs of non‐healing diabetic foot wounds in an African origin population in Barbados."</a> with Andre Greenidge, Kim Quimby, Simon Anderson, and Clive Landis. Diabetic Medicine (forthcoming) p.e14888. 
+
+<a href="https://onlinelibrary.wiley.com/doi/10.1111/ecin.13048" target="_blank">"How big are strategic spillovers from corporate tax competition?"</a> Economic Inquiry 60.2 (2022): 847-869. <a href="/myresearch/documents/taxcomp.pdf" target="_blank">(Working paper version)</a> 
 
 <a href="https://doi.org/10.1108/JHTI-03-2021-0084" target="_blank">"Segmenting tourists by length of stay using regression tree models"</a> with Mahalia Jackman.  Journal of Hospitality and Tourism Insights (forthcoming).
 
